@@ -50,7 +50,7 @@ li span {
     font-size: 1.1rem;
 }
 
-button {
+a.button {
     padding: 10px 20px;
     background-color: #ff66b2;
     color: white;
@@ -69,7 +69,7 @@ button:hover {
     color: #aaa;
 }
 
-.bought button {
+.bought a.button {
     background-color: #ccc;
     cursor: not-allowed;
 }
