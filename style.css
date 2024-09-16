@@ -46,11 +46,18 @@ li {
     border-radius: 5px;
 }
 
-li span {
-    font-size: 1.1rem;
+li img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
 }
 
-button {
+li span {
+    font-size: 1.1rem;
+    flex-grow: 1;
+}
+
+a.button {
     padding: 10px 20px;
     background-color: #ff66b2;
     color: white;
@@ -60,7 +67,7 @@ button {
     transition: background-color 0.3s;
 }
 
-button:hover {
+.button:hover {
     background-color: #ff3385;
 }
 
@@ -69,7 +76,26 @@ button:hover {
     color: #aaa;
 }
 
-.bought button {
+.bought a.button {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+.favorite-btn {
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.favorite-btn:hover {
+    background-color: #ff9900;
+}
+
+.favorite {
+    background-color: #ffe6f2;
+}
+
