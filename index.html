@@ -9,32 +9,46 @@
 <body>
     <div class="container">
         <h1>Lista de Aniversário do Seu Mozão 💝</h1>
-        <p>Escolha um presente para fazer o mozão ainda mais feliz! 😍</p>
+        <p>Escolha um presente para fazer o mozão ainda mais feliz!! 😍</p>
 
         <ul id="gift-list">
             <li>
+                <img src="https://via.placeholder.com/50" alt="Perfume Favorito">
                 <span>Perfume Favorito</span>
-                <button onclick="markAsBought(this)">Comprar</button>
+                <a href="https://google.com" class="button" target="_blank" onclick="markAsBought(this)">Comprar</a>
+                <button class="favorite-btn" onclick="markAsFavorite(this)">Favoritar</button>
             </li>
             <li>
+                <img src="https://via.placeholder.com/50" alt="Relógio Inteligente">
                 <span>Relógio Inteligente</span>
-                <button onclick="markAsBought(this)">Comprar</button>
+                <a href="https://google.com" class="button" target="_blank" onclick="markAsBought(this)">Comprar</a>
+                <button class="favorite-btn" onclick="markAsFavorite(this)">Favoritar</button>
             </li>
             <li>
+                <img src="https://via.placeholder.com/50" alt="Café da manhã na cama">
                 <span>Café da manhã na cama</span>
-                <button onclick="markAsBought(this)">Comprar</button>
+                <a href="https://google.com" class="button" target="_blank" onclick="markAsBought(this)">Comprar</a>
+                <button class="favorite-btn" onclick="markAsFavorite(this)">Favoritar</button>
             </li>
             <li>
+                <img src="https://via.placeholder.com/50" alt="Tênis baratinho e estiloso">
                 <span>Tênis baratinho e estiloso</span>
-                <button onclick="markAsBought(this)">Comprar</button>
+                <a href="https://google.com" class="button" target="_blank" onclick="markAsBought(this)">Comprar</a>
+                <button class="favorite-btn" onclick="markAsFavorite(this)">Favoritar</button>
             </li>
             <li>
+                <img src="https://via.placeholder.com/50" alt="Acessórios para corrida">
                 <span>Acessórios para corrida</span>
-                <button onclick="markAsBought(this)">Comprar</button>
+                <a href="https://google.com" class="button" target="_blank" onclick="markAsBought(this)">Comprar</a>
+                <button class="favorite-btn" onclick="markAsFavorite(this)">Favoritar</button>
             </li>
         </ul>
+        
+        <!-- Contador de presentes -->
+        <p id="gift-count">0 de 5 presentes comprados!</p>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
